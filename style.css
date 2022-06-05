@@ -38,7 +38,6 @@ ul{
 span {
     color: var(--accent-color);
 }
-
 .logo-span,
 .list-item:hover,
 .list-item:focus,
@@ -49,7 +48,7 @@ span {
 {
     color: #2196F3;
 }
-.nav-link{
+.nav-list{
     color: #212121;
 }
 .list-item{
@@ -72,6 +71,8 @@ span {
 }
 .hero-section{
     background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
 }
 .hero-tittle{
     color: white;
@@ -104,7 +105,7 @@ span {
     letter-spacing: 3%;
 }
 /*Секція знайомства*/
-.team{
+.section-team{
     background-color: #F5F4FA;
 }
 .paragraph{
@@ -182,4 +183,54 @@ span {
     line-height: 1.9;
     letter-spacing: 3%;
 }
-/*запитати чи правильні кнопки*/
+/*контейнери*/
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.hero-tittle{
+    padding-right: 452px;
+    padding-left: 452px;
+    text-align: center;
+}
+.header-nav{
+    display: flex;
+}
+.nav-list{
+    display: flex;
+}
+.list-item{
+    margin-right: 54px;
+}
+.link-list:last-child{
+    margin-right: 0;
+}
+.contacts-nav{
+    display: flex;
+}
+.contacts-nav li+li{
+    margin-left: 50px;
+}
+.hero-tittle{
+    display: flex;
+}
+.logo-footer{
+    padding-bottom: 20px;
+}
+.address{
+    padding-bottom: 9px;
+}
+.link-list-footer :not(:last-child){
+    padding-top: 9px;
+}
+/*запитати про шапку*/

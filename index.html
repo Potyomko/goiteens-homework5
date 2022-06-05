@@ -5,66 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web studio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+        <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
     <!-- headear -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
-    <link rel="stylesheet" href="style.css">
-    <nav>
-        <a class="logo" href="index.html"><p><span class="logo-span">Web</span>Studio</p></a>
-    <ul class="nav-link">
-        <li><a class="list-item" href="/index.html" target="_blank" rel="noopener noreferer">Студія</a></li>
-        <li><a class="list-item" href="/portfolio.html" target="_blank" rel="noopener noreferer">Портфоліо</a></li>
-        <li><a class="list-item" href="">Контакти</a></li>
-    </ul> 
-    <ul>
-        <li ><a class="link-list" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li ><a class="link-list" href="tel:+380961111111">+38 096 111 11 11</a></li>
-    </ul>
-    </nav>
-</header>
+    <header class="page-header"></header>
+    <div class="container header-nav">
+            <a class="logo" href="index.html"><p><span class="logo-span">Web</span>Studio</p></a> 
+        <nav>
+            <ul class="nav-list">
+                <li><a class="list-item" href="/index.html" target="_blank" rel="noopener noreferer">Студія</a></li>
+                <li><a class="list-item" href="/portfolio.html" target="_blank" rel="noopener noreferer">Портфоліо</a></li>
+                <li><a class="list-item" href="">Контакти</a></li>
+            </ul> 
+            <ul class="contacts-nav">
+                <li ><a class="link-list" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li ><a class="link-list" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
 <main>
     <!-- Секція герой -->
     <section class="hero-section">
-        <h1 class="hero-tittle">
-            Ефективні рішення для вашого бізнесу
-        </h1>
-        <button class="button" type="button">Замовити послугу</button>
+        <div class="container">
+            <h1 class="hero-tittle">
+                Ефективні рішення для вашого бізнесу
+            </h1>
+            <button class="button" type="button">Замовити послугу</button>    
+        </div>
     </section>
     <!-- Секція особливості  -->
     <section class="section">
-        <h2 class="tittle">ПРИКЛАДИ РОБІТ</h2>
-        <ul>
-        <li>
-            <h3 class="list">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem veritatis exercitationem velit magnam iure.</p>
-        </li>
-        <li>
-            <h3 class="list">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem veritatis exercitationem velit magnam iure.</p>
-        </li>
-        <li>
-            <h3 class="list">ПЛАНУВАННЯ</h3>
-            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem veritatis exercitationem velit magnam iure.</p>
-        </li>
-        <li>
-            <h3 class="list">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem veritatis exercitationem velit magnam iure.</p>
-        </li>
-        </ul>
+        <div class="container">
+    <h2 class="tittle">ПРИКЛАДИ РОБІТ</h2>
+    <ul>
+    <li>
+        <h3 class="list">УВАГА ДО ДЕТАЛЕЙ</h3>
+        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem veritatis exercitationem velit magnam iure.</p>
+    </li>
+    <li>
+        <h3 class="list">ПУНКТУАЛЬНІСТЬ</h3>
+        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem veritatis exercitationem velit magnam iure.</p>
+    </li>
+    <li>
+        <h3 class="list">ПЛАНУВАННЯ</h3>
+        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem veritatis exercitationem velit magnam iure.</p>
+    </li>
+    <li>
+        <h3 class="list">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem veritatis exercitationem velit magnam iure.</p>
+    </li>
+    </ul>
+        </div>
+    </section>
     <!-- Секція чим займаємось -->
-        <h2 class="tittle">ЧИМ МИ ЗАЙМАЄМОСЬ</h2>
+    <section class="section">
+        <div class="container">
+            <h2 class="tittle">ЧИМ МИ ЗАЙМАЄМОСЬ</h2>
     <ul>
         <li><img src="/img/webstudio/Чим ми займаємося/planchetclaviatura.jpg" alt="Планшет+клавіатура"></li>
         <li><img src="/img/webstudio/Чим ми займаємося/noutbuktelephone.jpg" alt="Ноутбук+телефон"></li>
         <li><img src="/img/webstudio/Чим ми займаємося/computerplanchet.jpg" alt="Комп'ютер+планшет"></li>
     </ul>
+        </div>
     </section>
     <!-- Секція знайомства -->
-    <section id="team">
-        <p class="tittle">Наша команда</p>
+    <section class="section-team">
+        <div class="container">
+            <p class="tittle">Наша команда</p>
         <ul>
             <li>
                 <img src="/img/webstudio/Наша команда/igordemyanenko.jpg" alt="Demianko" width="270" height="260">
@@ -87,18 +98,21 @@
                 <p class="profeshion">UI Designer</p>
             </li>
         </ul>
+        </div>
     </section>
 </main>
 <!--Підвал-->
 <footer class="footer">
-    <nav>
-        <a class="logo-footer" href="index.html"><p><span>Web</span>Studio</p></a>
-    </nav>
-    <address class="address"> м. Київ, пр-т Лесі Українки, 26</address>
-    <ul>
-        <li><a  class="link-list-footer"href="mailto:info@example.com">info@example.com</a></li>
-        <li><a class="link-list-footer" href="tel:+380991111111">+38 099 111 11 11</a></li>
-    </ul>
+    <div class="container">
+        <nav>
+            <a class="logo-footer" href="index.html"><p><span>Web</span>Studio</p></a>
+        </nav>
+        <address class="address"> м. Київ, пр-т Лесі Українки, 26</address>
+        <ul>
+            <li><a  class="link-list-footer"href="mailto:info@example.com">info@example.com</a></li>
+            <li><a class="link-list-footer" href="tel:+380991111111">+38 099 111 11 11</a></li>
+        </ul>
+    </div>
 </footer>
 </body>
 </html>
