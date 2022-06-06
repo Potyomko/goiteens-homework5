@@ -198,11 +198,6 @@ span {
     margin-top: 0;
     margin-bottom: 0;
 }
-.hero-tittle{
-    padding-right: 452px;
-    padding-left: 452px;
-    text-align: center;
-}
 .header-nav{
     display: flex;
 }
@@ -222,15 +217,43 @@ span {
     margin-left: 50px;
 }
 .hero-tittle{
+    padding-top: 200px;
+    padding-bottom: 30px;
+    padding-left: 452px;
+}
+.hero-tittle{
     display: flex;
 }
+.button{
+    display: flex;
+}
+.button{
+    padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 24px;
+}
 .logo-footer{
+    margin-top: 60px;
+    padding-top: 154px;
     padding-bottom: 20px;
+    padding-left: 215px;
+    margin-bottom: 161px;
 }
 .address{
-    padding-bottom: 9px;
+    padding-bottom: 120px;
+    padding-left: 215px;
+    margin-bottom: 120px;
 }
-.link-list-footer :not(:last-child){
-    padding-top: 9px;
+.link-list-footer{
+    padding-left: 215px;
+    padding-bottom: 9px;
+    margin-bottom: 90px;
+}
+.link-list-footer:last-child{
+    padding-bottom: 0px;
+    margin-bottom: 60px;
+} 
+.footer-nav{
+    display: flex;
 }
 /*запитати про шапку*/
